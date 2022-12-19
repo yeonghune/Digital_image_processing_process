@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1281</width>
+    <height>898</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="clear_ID_List_2">
+   <property name="geometry">
+    <rect>
+     <x>11</x>
+     <y>861</y>
+     <width>211</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ID 리스트 확인창 지우기</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="B_BACK">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>821</y>
+     <width>91</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>이전 창으로
+돌아가기</string>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="ID_List_2">
+   <property name="geometry">
+    <rect>
+     <x>231</x>
+     <y>822</y>
+     <width>201</width>
+     <height>71</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="textBrowser_2">
+   <property name="geometry">
+    <rect>
+     <x>701</x>
+     <y>821</y>
+     <width>561</width>
+     <height>71</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="reg_ID_List_2">
+   <property name="geometry">
+    <rect>
+     <x>11</x>
+     <y>821</y>
+     <width>211</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ID 리스트 재확인</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="FORCED_EXIT_2">
+   <property name="geometry">
+    <rect>
+     <x>11</x>
+     <y>741</y>
+     <width>1251</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>프로그램 강제종료</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="B_START">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>821</y>
+     <width>151</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>얼굴인식 시작</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="FeedLabel_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>1280</width>
+     <height>720</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>1280</width>
+     <height>720</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>1280</width>
+     <height>720</height>
+    </size>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>B_BACK</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>second_to_main()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>615</x>
+     <y>854</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>700</x>
+     <y>735</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>second_to_main()</slot>
+ </slots>
+</ui>
